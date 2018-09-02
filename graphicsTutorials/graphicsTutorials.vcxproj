@@ -48,11 +48,13 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>E:\Projects\C#\Porjects\OpenGLTutors\graphicsTutorials\graphicsTutorials\deps\include;E:\Projects\C#\Porjects\OpenGLTutors\graphicsTutorials\graphicsTutorials\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_ttf.lib;SDL2_mixer.lib;opengl32.lib;glew32.lib;Bengine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\Projects\C#\Porjects\OpenGLTutors\graphicsTutorials\graphicsTutorials\deps;E:\Projects\C#\Porjects\OpenGLTutors\graphicsTutorials\graphicsTutorials\deps\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -62,14 +64,15 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>E:\Projects\C#\Porjects\OpenGLTutors\graphicsTutorials\graphicsTutorials\deps;E:\Projects\C#\Porjects\OpenGLTutors\graphicsTutorials\graphicsTutorials\deps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Projects\C#\Porjects\OpenGLTutors\graphicsTutorials\deps;E:\Projects\C#\Porjects\OpenGLTutors\graphicsTutorials\deps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>E:\Projects\C#\Porjects\OpenGLTutors\graphicsTutorials\graphicsTutorials\deps;E:\Projects\C#\Porjects\OpenGLTutors\graphicsTutorials\graphicsTutorials\deps\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>E:\Projects\C#\Porjects\OpenGLTutors\graphicsTutorials\Bengine\Release;E:\Projects\C#\Porjects\OpenGLTutors\graphicsTutorials\ZombieGame\deps\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_ttf.lib;SDL2_mixer.lib;opengl32.lib;glew32.lib;Bengine.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

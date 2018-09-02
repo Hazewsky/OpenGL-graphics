@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "graphicsTutorials", "graphicsTutorials\graphicsTutorials.vcxproj", "{748EE8E0-9734-462C-A323-2BB1F0D16A0D}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -15,17 +15,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZombieGame", "ZombieGame\Zo
 		{D122AF25-807D-4529-85A6-033A413FAD5A} = {D122AF25-807D-4529-85A6-033A413FAD5A}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BallGame", "BallGame\BallGame.vcxproj", "{CD3C5F6D-8DA9-47F6-AE75-CE8482290513}"
-	ProjectSection(ProjectDependencies) = postProject
-		{D122AF25-807D-4529-85A6-033A413FAD5A} = {D122AF25-807D-4529-85A6-033A413FAD5A}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BallGameStolen", "BallGameStolen\BallGameStolen.vcxproj", "{7C6DD87E-6240-4641-8BF5-D1831AB93C24}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BallGameNew", "BallGameStolen\BallGameStolen.vcxproj", "{7C6DD87E-6240-4641-8BF5-D1831AB93C24}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NinjaPlatformer", "NinjaPlatformer\NinjaPlatformer.vcxproj", "{8FACB9A1-408E-41C6-BBF4-3A95FBEB5083}"
 	ProjectSection(ProjectDependencies) = postProject
 		{D122AF25-807D-4529-85A6-033A413FAD5A} = {D122AF25-807D-4529-85A6-033A413FAD5A}
-		{7C6DD87E-6240-4641-8BF5-D1831AB93C24} = {7C6DD87E-6240-4641-8BF5-D1831AB93C24}
 	EndProjectSection
 EndProject
 Global
@@ -46,10 +40,6 @@ Global
 		{14C1D8E2-1A85-4B08-AB2E-0B5705412DB9}.Debug|Win32.Build.0 = Debug|Win32
 		{14C1D8E2-1A85-4B08-AB2E-0B5705412DB9}.Release|Win32.ActiveCfg = Release|Win32
 		{14C1D8E2-1A85-4B08-AB2E-0B5705412DB9}.Release|Win32.Build.0 = Release|Win32
-		{CD3C5F6D-8DA9-47F6-AE75-CE8482290513}.Debug|Win32.ActiveCfg = Debug|Win32
-		{CD3C5F6D-8DA9-47F6-AE75-CE8482290513}.Debug|Win32.Build.0 = Debug|Win32
-		{CD3C5F6D-8DA9-47F6-AE75-CE8482290513}.Release|Win32.ActiveCfg = Release|Win32
-		{CD3C5F6D-8DA9-47F6-AE75-CE8482290513}.Release|Win32.Build.0 = Release|Win32
 		{7C6DD87E-6240-4641-8BF5-D1831AB93C24}.Debug|Win32.ActiveCfg = Debug|Win32
 		{7C6DD87E-6240-4641-8BF5-D1831AB93C24}.Debug|Win32.Build.0 = Debug|Win32
 		{7C6DD87E-6240-4641-8BF5-D1831AB93C24}.Release|Win32.ActiveCfg = Release|Win32
@@ -61,5 +51,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE409D7B-2BD1-44F7-BC6E-C538936F99AC}
 	EndGlobalSection
 EndGlobal

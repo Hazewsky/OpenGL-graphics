@@ -1,6 +1,8 @@
 #include "BallController.h"
 #include "Grid.h"
+//ball update
 void BallController::updateBalls(std::vector <Ball>& balls, Grid* grid, float deltaTime, int maxX, int maxY) {  
+	//friction
     const float FRICTION = 0.001f;
     // Update our grabbed balls velocity
     if (m_grabbedBall != -1) {
@@ -147,7 +149,6 @@ void BallController::checkCollision(Ball& b1, Ball& b2) {
     float collisionDepth = totalRadius - dist;
     // Check for collision
     if (collisionDepth > 0) {
-
         // Push away the balls based on ratio of masses
             b1.position -= distDir * collisionDepth *(b2.mass/b1.mass) * 0.5f;
 
